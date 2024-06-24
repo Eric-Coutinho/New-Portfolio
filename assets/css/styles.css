@@ -1,0 +1,9 @@
+body {
+  overflow-x: hidden;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+
+}
