@@ -1,9 +1,16 @@
 body {
   overflow-x: hidden;
+  background: rgb(21, 42, 148);
+  background: linear-gradient(
+    0deg,
+    rgba(21, 42, 148, 1) 0%,
+    rgba(11, 73, 184, 1) 40%,
+    rgba(24, 147, 171, 1) 100%
+  ) fixed;
+  font-family: "Jost", sans-serif;
 }
 
 .center {
   display: flex;
   justify-content: center;
-
 }

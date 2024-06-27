@@ -16,27 +16,44 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Eric Coutinho</title>
   </head>
   <body>
-    <div class="container" style="display: flex">
-      <div class="col">
-        <div class="row">
-          <div class="col">
-            <div class="information">
-              Olá, me chamo Eric, tenho 19 Anos e sou de Curitiba - PR.
-            </div>
+    <div class="container text-center" style="display: flex">
+      <div class="row">
+        <div class="col">
+          <div class="information">
+            <h1>Olá, me chamo Eric, tenho 19 anos e sou de Curitiba - PR.</h1>
           </div>
+        </div>
+        <div class="col center">
+          <img class="selfie" src="assets/img/mainFoto.jfif" />
         </div>
         <div class="row">
           <h2>Curiosidades</h2>
         </div>
         <div class="row">
-          <div class="hobbies">
-            Gostou muito de música, jogar jogos, principalmente os competitivos
-            como Rocket League e Valorant, sair com meus amigos e assistir
-            filmes e séries com minha gatinha de estimação.
+          <div class="col">
+            <div class="hobbies">
+              Gostou muito de música, jogar jogos, principalmente os
+              competitivos como Rocket League e Valorant, sair com meus amigos e
+              assistir filmes e séries com minha gatinha de estimação.
+            </div>
+          </div>
+          <div class="col center">
+            <div class="images">
+              <img class="hobbies" src="assets/img/rl.jfif" />
+              <img class="hobbies" src="assets/img/bar.jfif" />
+              <img class="hobbies" src="assets/img/cinema.jfif" />
+            </div>
           </div>
         </div>
         <div class="row">
@@ -146,46 +163,46 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="container">
-          <div class="row">
-            <div class="col center">
-              <img class="selfie" src="assets/img/mainFoto.jfif" />
-            </div>
-          </div>
-          <div class="row">
-            <h2>Contatos</h2>
-          </div>
-          <div class="row">
-            <ul>
-              <li>
-                <a href="https://github.com/Eric-Coutinho">GitHub</a>
-              </li>
-              <li>
-                <a href="www.linkedin.com/in/eric-coutinho26">LinkedIn</a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/eric_coutinhop?igsh=MW84eHE5c25vZXRsaw=="
-                  >Instagram</a
-                >
-              </li>
-              <li>
-                <div class="email">Email: eric.coutinhop@hotmail.com</div>
-              </li>
-            </ul>
-          </div>
-          <div class="row">
-            <h2>Projetos</h2>
-          </div>
-          <div class="row">
-            Projetos em repositórios do GitHub
-            <ul id="repositories"></ul>
-          </div>
+        <div class="row">
+          <h2>Contatos</h2>
+        </div>
+        <div class="row">
+          <ul>
+            <li>
+              <a href="https://github.com/Eric-Coutinho">GitHub</a>
+            </li>
+            <li>
+              <a href="www.linkedin.com/in/eric-coutinho26">LinkedIn</a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/eric_coutinhop?igsh=MW84eHE5c25vZXRsaw=="
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <div class="email">Email: eric.coutinhop@hotmail.com</div>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <h2>Projetos</h2>
+        </div>
+        <div class="row">
+          Projetos em repositórios do GitHub
+          <ul id="repositories"></ul>
         </div>
       </div>
     </div>
+    <!--
+        <div class="row">
+          <h2>Projetos</h2>
+        </div>
+        <div class="row">
+          Projetos em repositórios do GitHub
+          <ul id="repositories"></ul>
+        </div>
+      </div> -->
     <script src="main.js"></script>
   </body>
 </html>
