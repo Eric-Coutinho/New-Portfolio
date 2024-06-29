@@ -57,8 +57,9 @@ li {
   animation: moveAround1 7s infinite;
 }
 
-.bar {
+.amigos {
   animation: moveAround2 5s infinite;
+  width: 40%;
 }
 
 .cinema {
@@ -121,11 +122,32 @@ ul {
   align-items: center;
 }
 
+.cardRepos {
+  margin-top: 1em;
+}
+
+.cardBodyRepo {
+  height: 10em;
+}
+
+.card-text.description {
+  max-height: 3em;
+  overflow: auto;
+}
+
 .contact {
   display: flex;
   width: 50%;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  color: white;
+}
 
 @keyframes moveUpDown {
   0% {
