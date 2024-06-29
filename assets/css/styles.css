@@ -112,6 +112,10 @@ ul {
   margin-block: 0.5em;
 }
 
+.centerLanguages {
+  text-align: justify;
+}
+
 .habilidades {
   margin: 0;
 }
