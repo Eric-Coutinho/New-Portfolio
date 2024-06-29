@@ -2,15 +2,195 @@ body {
   overflow-x: hidden;
   background: rgb(21, 42, 148);
   background: linear-gradient(
-    0deg,
-    rgba(21, 42, 148, 1) 0%,
-    rgba(11, 73, 184, 1) 40%,
-    rgba(24, 147, 171, 1) 100%
-  ) fixed;
+      0deg,
+      rgba(21, 42, 148, 1) 0%,
+      rgba(11, 73, 184, 1) 40%,
+      rgba(24, 147, 171, 1) 100%
+    )
+    fixed;
   font-family: "Jost", sans-serif;
 }
 
 .center {
   display: flex;
   justify-content: center;
+}
+
+.information h1 {
+  font-size: 4em;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.row {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hobbies {
+  z-index: 10;
+}
+
+.selfie {
+  border-radius: 20px;
+  border: solid 2px gray;
+  animation: moveUpDown 6s infinite;
+  height: 30em;
+}
+
+.images img {
+  border-radius: 10px;
+  margin: 1em;
+  object-fit: cover;
+  box-shadow: 3px 4px 10px gray;
+}
+
+.rl {
+  animation: moveAround1 7s infinite;
+}
+
+.bar {
+  animation: moveAround2 5s infinite;
+}
+
+.cinema {
+  animation: moveAround3 6s infinite;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.formation {
+  height: 100%;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-block: 0.5em;
+}
+
+.formation .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  padding: 1em 0.5em;
+}
+
+.bosch {
+  width: 70%;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+.cardSkills {
+  padding: 1em;
+  width: 100%;
+  margin-block: 0.5em;
+}
+
+.habilidades {
+  margin: 0;
+}
+
+.habilidades .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  width: 50%;
+}
+
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(+20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveAround1 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  25% {
+    transform: translateY(20px) translateX(-10px);
+  }
+
+  75% {
+    transform: translateY(-20px) translateX(10px);
+  }
+
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes moveAround2 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  25% {
+    transform: translateY(20px) translateX(-30px);
+  }
+
+  75% {
+    transform: translateY(-20px) translateX(10px);
+  }
+
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes moveAround3 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  25% {
+    transform: translateY(10px) translateX(20px);
+  }
+
+  75% {
+    transform: translateY(-10px) translateX(-20px);
+  }
+
+  100% {
+    transform: translateY(0) translateX(0);
+  }
 }
